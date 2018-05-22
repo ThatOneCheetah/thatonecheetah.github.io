@@ -1,0 +1,27 @@
+/* CAD5 Webpage CSS - Yoerie Wolvekamp */
+/* ---------- */
+
+/* Page partitioning */
+
+div.partition-a
+{
+	clear: both;
+	width: 100%;
+}
+
+div.partition-b
+{
+	clear: both;
+	width: 100%;
+}
+
+.page-center
+{
+	clear: both;
+
+	margin-left: 6.25%;
+	margin-right: 6.25%;
+	margin-bottom: 1em;
+}
+
+/* This stylesheet and all components thereof are Copyright CC-BY-NC-SA 3.0 2017-2018 - JY Wolvekamp */

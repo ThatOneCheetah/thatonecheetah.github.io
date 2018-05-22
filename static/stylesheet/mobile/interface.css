@@ -1,0 +1,46 @@
+/* CAD5 Webpage CSS - Yoerie Wolvekamp */
+/* ---------- */
+
+
+/* Navbar */
+
+nav.nav-top
+{
+	float: left;
+	overflow: auto;
+
+	background-color: var( --col-bg-a );
+	list-style-type: none;
+}
+
+a.nav-link
+{
+	background-color: var( --col-ac-a );
+
+	clear: both;
+	width: calc( 100% - 0.5em );
+
+	padding: 0px 0px 0px 0.5em;
+	line-height: 2em;
+
+	text-align: left;
+	text-decoration: none;
+}
+
+a.nav-logo
+{
+	float: left;
+	clear: left;
+
+	margin: 0.5em;
+	padding: 0;
+
+	width: 3em;
+	height: 3em;
+
+	background-image: url( "../../image/logo.png" );
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+/* This stylesheet and all components thereof are Copyright CC-BY-NC-SA 3.0 2017-2018 - JY Wolvekamp */
