@@ -38,7 +38,7 @@ a.nav-logo
 	width: 3em;
 	height: 3em;
 
-	background-image: url( "../../image/logo.png" );
+	background-image: url( "../../image/logo.webp" );
 	background-repeat: no-repeat;
 	background-size: contain;
 }

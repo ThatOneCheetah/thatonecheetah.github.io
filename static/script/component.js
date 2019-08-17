@@ -16,11 +16,28 @@ function setComponent( name )
 	{
 		componentNow = name;
 
+		let embedPage = document.getElementById( "embedpage" );
+		embedPage.style.opacity = "0";
+
+		setTimeout( () =>
+		{
+			fetch( componentRoot + name + ".html" ).then( response => 
+			{
+				return response.text();
+			} ).then( text =>
+			{
+				embedPage.innerHTML = text;
+				embedPage.style.opacity = "1";
+			} );
+		}, 300 );
+
+		/*
 		$( "#embedpage" ).fadeOut( 100, function() {
 			$( "#embedpage" ).load( componentRoot + name + ".html", null, function() {
 				$( "#embedpage" ).fadeIn( 100 );
 			} );
 		} );
+		*/
 	}
 }
 
